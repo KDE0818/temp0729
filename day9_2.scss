@@ -1,0 +1,45 @@
+body {
+    margin: 0px; // 바깥 여백 제거
+    padding: 0px; // 안쪽 여백 제거
+    font-family: "inter", sans-serif; // 글꼴 설정
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul,
+li {
+    list-style: none; // 리스트 점 제거
+    margin: 0px; // 바깥 여백 제거
+    padding: 0px; // 안쪽 여백 제거
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        top: 4px;
+        left: 10px;
+        right: 10px;
+
+        .nav {
+            font-size: 17px;
+            gap: 22px;
+            display: none; // 모바일에서는 숨김
+
+        }
+
+        .lan_select {
+            font-size: 17px;
+            gap: 4px;
+
+        }
+    }
+
+    .concept_items {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+
+    }
+
+
+}

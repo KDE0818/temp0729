@@ -1,0 +1,36 @@
+@media screen and ( max-width: ~px); {  }~px이하
+
+min-width ~이상
+
+display:none (사라지게 만드는 속성)
+
+pc 노트북 모바일(+가로 1920, 2500 화면에 맞게 )
+
+
+1) 헤더의 가운데 카테고리바는 앱솔루트로 잡아주고 양사이드는justify-content: space between
+2) 겹처진 부분은 포지션 
+
+
+lan_select 에 디스플레이 플렉스 alien-items : center
+bold는 700
+
+가운데 카테고리에 따로 포지션 맵솔루트로 분리 
+transform: translatex(-50%)
+
+
+28% 100%
+
+
+object-fit :cover(원본 비율유지)
+object-position: center
+
+가상의 프로모션 
+
+mix
+
+모바일 기준을 잡을때 600~800
+
+@media screen and ( max-width: ~px) and  ( min-width: ~px) 
+
+따로 지정한다
+
